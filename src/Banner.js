@@ -3,7 +3,7 @@ import { ProfilePicture } from "./ProfilePicture"
 export const Banner = () =>{
 
     return (
-        <div>
+        <div className="banner">
             <ProfilePicture/>
         </div>
     )
