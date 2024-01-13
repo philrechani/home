@@ -7,6 +7,7 @@ export const PageBar = () => {
             <PageButton text="journal"/>
             <PageButton text="webapps"/>
             <PageButton text="tutorials"/>
+            <PageButton text="resume"/>
         </div>
     )
 }
