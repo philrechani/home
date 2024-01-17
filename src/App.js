@@ -17,7 +17,8 @@ function App() {
   console.log(width,height)
 
   const data = useEarthData()
-
+  console.log('data: ')
+  console.log(data)
   return (
     <div className="App">
       <Banner />

@@ -17,6 +17,9 @@ const setViewbox = ({ x, y, w, h }, scale) => {
     return `${x} ${y} ${w * scale} ${h * scale}`
 }
 
+const showDetails = (countryName) => {
+    console.log(countryName);
+  };
 
 
 export const Earth = ({ data: { countries, interiors } }) => {
@@ -32,7 +35,8 @@ export const Earth = ({ data: { countries, interiors } }) => {
                         return (
                             <path
                                 className='countries'
-                                d={path(feature)} />
+                                d={path(feature)} 
+                                onMouseEnter={() => showDetails(feature.properties.name)}/>
                         )
                     }
 

@@ -130,7 +130,7 @@ svg {
   border: 2px solid black;
   display: flex;
   align-items: center;
-  height:500px;
+  height: auto;
   
 }
 /* .App-logo {
