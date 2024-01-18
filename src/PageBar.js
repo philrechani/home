@@ -8,6 +8,7 @@ export const PageBar = () => {
             <PageButton text="webapps"/>
             <PageButton text="tutorials"/>
             <PageButton text="resume"/>
+            <PageButton text="music" outlink="https://philrechani.github.io/music"/>
         </div>
     )
 }

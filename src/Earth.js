@@ -21,6 +21,7 @@ const showDetails = (countryName) => {
     console.log(countryName);
   };
 
+  
 
 export const Earth = ({ data: { countries, interiors } }) => {
 
